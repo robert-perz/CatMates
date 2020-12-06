@@ -1,0 +1,59 @@
+.header {
+  border-bottom: 1px solid rgb(230, 230, 230);
+  box-shadow: 0 0 0.8em rgba(0, 0, 0, 0.1);
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+  margin-left: auto;
+  list-style: none;
+  text-align: center;
+  &__item + &__item {
+    margin-left: 20px;
+  }
+}
+.logo,
+.list {
+  padding: 1em 0;
+}
+.nav__link,
+.logo {
+  font-size: 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.logo {
+  font-size: 1.31rem;
+  color: rgb(118, 74, 188);
+  align-self: start;
+  transition: 0.8s;
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.nav {
+  &__link {
+    color: #000;
+    transition: 0.8s;
+    &--phone {
+      color: rgb(118, 74, 188);
+    }
+    &--signup {
+      padding: 8px 15px;
+      background-color: rgb(118, 74, 188);
+      color: #fff;
+      border-radius: 35px;
+      box-shadow: 0 0 0.1em rgba(0, 0, 0, 0.3);
+    }
+    &:not(.nav__link--phone):hover {
+      opacity: 0.5;
+    }
+  }
+  &__link--active {
+    color: #fff;
+  }
+}

@@ -1,0 +1,38 @@
+.signup {
+  height: 100vh;
+  background-color: #764abc;
+  color: #fff;
+  &__title {
+    padding: 180px 0 80px 0;
+    font-size: 3rem;
+    text-align: center;
+  }
+  &__form {
+    display: flex;
+    flex-direction: column;
+    // justify-content: space-between;
+  }
+  &__label {
+    margin: 0 auto;
+  }
+  &__input,
+  &__btn {
+    padding: 3px 0 5px 5px;
+  }
+  &__input {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+    background: transparent;
+    background-color: #fff;
+    border: 1px solid #fff;
+  }
+  &__btn {
+    width: 30%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    color: #764abc;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}

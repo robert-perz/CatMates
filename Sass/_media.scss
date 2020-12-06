@@ -1,0 +1,134 @@
+@media (max-width: 800px) {
+  .hero {
+    &__companies-link {
+      width: 50%;
+      padding-top: 0.5em;
+    }
+  }
+  .list {
+    display: none;
+    &__item + &__item {
+      margin: 0.5em 0 0 0;
+    }
+  }
+  .profits {
+    &__img-wrapper {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+}
+@media (min-width: 801px) {
+  .nav {
+    &__link:not(.nav__link--signup) {
+      color: #000;
+      &--phone {
+        color: rgb(118, 74, 188);
+      }
+    }
+    .hamburger {
+      display: none;
+    }
+    .profits {
+      &__title {
+        margin: 0 auto;
+        width: 60%;
+        font-size: 1.5rem;
+      }
+      &__img {
+        width: 30%;
+      }
+    }
+    .confusion {
+      &__df {
+        display: flex;
+      }
+      &__img-wrapper {
+        margin: 0 auto;
+        width: 40%;
+      }
+      &__img {
+        width: 100%;
+      }
+    }
+    .value {
+      &__img-box {
+        width: 60%;
+        text-align: center;
+      }
+    }
+  }
+  @media (min-width: 1000px) {
+    .hero {
+      &__demo-link {
+        font-size: 1rem;
+      }
+      &__companies {
+        margin: 0 auto;
+        width: 60%;
+      }
+    }
+    .profits {
+      &__title {
+        margin: 0 auto;
+        width: 80%;
+        font-size: 2rem;
+      }
+
+      &__img {
+        display: block;
+        margin: 0 auto;
+        width: 60%;
+      }
+    }
+    .confusion {
+      &__title {
+        width: 35%;
+        font-size: 1.8rem;
+        line-height: 2.5em;
+      }
+      &__df {
+        display: flex;
+      }
+      &__img-wrapper {
+        margin: 0 auto;
+        width: 40%;
+      }
+    }
+    .value {
+      &__title {
+        font-size: 1.6rem;
+      }
+      &__subtitle {
+        font-size: 1.3rem;
+      }
+      &__txt {
+        width: 80%;
+        padding-bottom: 2em;
+        font-size: 1.2rem;
+      }
+      &__img {
+        padding-top: 2em;
+        margin: 0 auto;
+        width: 40%;
+      }
+    }
+  }
+  .col {
+    &__title {
+      font-size: 1.2rem;
+    }
+    &__txt {
+      font-size: 1rem;
+    }
+    &:nth-of-type(5) {
+      padding-bottom: 3em;
+    }
+  }
+  .contact-section {
+    padding-top: 1em;
+    &__title {
+      font-size: 1rem;
+    }
+  }
+}

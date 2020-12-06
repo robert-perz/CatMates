@@ -1,0 +1,42 @@
+.contact-section {
+  background-color: #f2f2f2;
+  &__title {
+    padding: 1em 0 1.5em 0;
+    font-size: 0.9rem;
+    color: #764abc;
+  }
+  &__phone {
+    padding-top: 2em;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #575757;
+  }
+  &__address {
+    padding: 1em 0 2em 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #575757;
+  }
+  &__email {
+    padding: 1em 0 1em 0;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #575757;
+  }
+  &__btn {
+    margin-top: 1em;
+    padding: 0.3em 1.5em;
+    font-size: 1rem;
+    border: none;
+    background: #5cb5a1;
+    color: #fff;
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.1em);
+    transition: 0.8s;
+    &:hover {
+      cursor: pointer;
+      background: transparent;
+      color: #5cb5a1;
+      border: 1px solid #5cb5a1;
+    }
+  }
+}

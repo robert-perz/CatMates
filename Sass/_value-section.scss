@@ -1,0 +1,36 @@
+.value {
+  padding: 70px 0;
+  text-align: center;
+  color: rgb(56, 63, 77);
+  &__title {
+    margin-bottom: 3em;
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2em;
+  }
+  &__subtitle,
+  &__txt {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  &__subtitle {
+    font-weight: 600;
+    color: rgb(118, 74, 188);
+  }
+  &__txt {
+    padding-top: 20px;
+    color: #383f4d;
+  }
+  &__img-box {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+    text-align: center;
+    box-shadow: 0 55px 70px -20px rgba(50, 50, 93, 0.15),
+      0 20px 30px -10px rgba(50, 0, 0, 0.14);
+  }
+  &__img {
+    color: #764abc;
+    width: 60%;
+  }
+}

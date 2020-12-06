@@ -1,0 +1,59 @@
+@import "header";
+@import "hamburger";
+@import "hero-section";
+@import "profits-section";
+@import "confusion-section";
+@import "value-section";
+@import "signup";
+@import "contact-section";
+@import "footer";
+@import "media";
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+$base-color: rgb(253, 253, 253);
+$secondary-color: #764abc;
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: $base-color;
+}
+.container {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.active {
+  display: block;
+  margin: 0 auto;
+}
+/*navigation background on <800px res*/
+.bcg {
+  background-color: #000;
+}
+.heart {
+  color: #5cb5a1;
+}
+.logo-active {
+  color: #fff;
+}
+.homepage {
+  position: fixed;
+  bottom: 1em;
+  right: 0.5em;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #000;
+  opacity: 0.5;
+  transition: 0.4s;
+  &:hover {
+    opacity: 1;
+  }
+}

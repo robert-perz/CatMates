@@ -1,0 +1,22 @@
+.hamburger {
+  position: absolute;
+  top: 1.4em;
+  right: 2em;
+  width: 25px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: transparent;
+  &__bar {
+    display: block;
+    width: 100%;
+    border-top: 3px solid #000;
+  }
+  &__bar + &__bar {
+    margin-top: 1px;
+  }
+}
+.bar-active {
+  border-top: 3px solid #fff;
+}
